@@ -1,0 +1,29 @@
+{
+  "name": "@aimoverse/agent-nft",
+  "version": "0.0.1",
+  "description": "Manage creation, mint etc. of an \"Agent NFT\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AIMOverse/agent-nft.git"
+  },
+  "keywords": [
+    "web3",
+    "NFT"
+  ],
+  "author": "Archer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AIMOverse/agent-nft/issues"
+  },
+  "homepage": "https://github.com/AIMOverse/agent-nft#readme",
+  "dependencies": {
+    "@metaplex-foundation/mpl-inscription": "^0.8.1",
+    "@metaplex-foundation/umi": "^1.0.0",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.0.0",
+    "@solana/web3.js": "^1.98.0"
+  }
+}
